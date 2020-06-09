@@ -5,14 +5,14 @@ output:
     keep_md: true
 ---
 
-## Loading relevant libraries
+Loading relevant libraries
 
 ```{r}
 library(tidyverse)
 library(doBy)
 ```
 
-## Loading and preprocessing the data
+Loading and preprocessing the data
 
 ```{r}
 setwd("/Users/jesus/Documents/GitHub/RepData_PeerAssessment1/activity")

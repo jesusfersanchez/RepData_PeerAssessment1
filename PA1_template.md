@@ -5,7 +5,7 @@ output:
     keep_md: true
 ---
 
-## Loading relevant libraries
+Loading relevant libraries
 
 
 ```r
@@ -44,7 +44,7 @@ library(doBy)
 ##     order_by
 ```
 
-## Loading and preprocessing the data
+Loading and preprocessing the data
 
 
 ```r
@@ -223,4 +223,4 @@ ggplot(WeekendData, aes(x=intervalMin, y=MeanSteps) )+geom_line()+xlab("Minutes"
 
 
 
-Activity starts earlier on weekdays, has a greater step/interval maximum, but ends earlier. Activity is spread throughout the weekend
+Activity starts earlier on weekdays, has a greater step/interval maximum, but ends earlier. Activity is spread throughout the weekend.
